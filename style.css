@@ -113,7 +113,7 @@ p {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     clip-path: circle(600px at right 800px);
 }
