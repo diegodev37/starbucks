@@ -118,30 +118,36 @@ p {
     clip-path: circle(600px at right 800px);
 }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
     body {
-        min-width: 100vw;
-    }
+        margin-left: 0px;
+        padding: 20px;
 
+    }
+   
     .logo {
         width: 50px;
     }
 
     h2 {
-        width: 500px;
+        width: 300px;
         font-size: 20px;
     }
 
     p {
         font-size: 14px;
     }
+    .caixa-texto {
+        width: 300px;
+    }
+    
 
     .circulo {
         clip-path: circle(200px at right 500px);
         width: 100%;
         height: 100%;
         z-index: -2;
-        margin-left: 400px;
+        margin-left: -200px;
 
 
 
@@ -149,8 +155,8 @@ p {
 
     .starbucks {
         width: 200px;
-        margin-left: 70px;
-        margin-top: 450px;
+        margin-left: -150px;
+        margin-top: 400px;
         position: relative;
 
 
@@ -158,12 +164,12 @@ p {
 
     .conteudo {
         margin-top: -200px;
-        width: 200px;
+        width: 0px;
     }
 
     .menu {
         display: flex;
-      margin-left: 400px;
+      margin-left: -400px;
 
 
     }
