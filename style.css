@@ -118,15 +118,13 @@ p {
     clip-path: circle(600px at right 800px);
 }
 
-@media(max-width:600px){
-    body {
-        padding-left: 30px;
-    }
+@media(max-width:700px){
+    
     .logo {
-        width: 60px;
+        width: 50px;
     }
     h2 {
-        width: 200px;
+        width: 300px;
         font-size: 20px;
     }
     p {
@@ -134,28 +132,29 @@ p {
     }
 
     .circulo {
-        clip-path: circle(800px at right 800px);
-        width: 60%;
-        height: 30%;
+        clip-path: circle(600px at right 700px);
+        width: 100%;
+        height: 50%;
         z-index: -2;
-        margin-top: 500px;
+        margin-top: 300px;
         
     }
     .starbucks{
-        width: 150px;
+        width: 200px;
         left: -160px;
-        margin-top: 550px;
+        margin-top: 500px;
         position: relative;
 
 
     }
     .conteudo{
-        margin-top: -200px;
+        margin-top: -250px;
     }
 
      .menu {
         display: block;
-        margin-top: 20px;
+        margin-top: 0px;
+        left: -30px;
      }
 
     span {
